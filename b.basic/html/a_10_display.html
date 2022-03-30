@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>웹 기초</title>
+  <style>
+.box_01{
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+.box_02{
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+}
+ul{
+  width: 200px;
+  height: auto;
+  background-color: red;
+  list-style: none;
+}
+
+li{
+  width: 200px;
+  height: auto;}
+
+.list_1{
+background-color: greenyellow;
+}
+.list_2{
+  background-color: lightgreen;
+}
+.mini_gr{
+  width: 300px;
+  height: 40px;
+}
+a{
+  width: 300px;
+  height: 40px;
+  background-color: yellow;
+}
+hr{
+  width: 300px;
+  height: 40px;
+}
+button{
+  width: 300px;
+  height: 20px;
+  border: 0;
+}
+.conv_box{
+  width: 300px;
+  height: 50px;
+  background-color: black;
+}
+.conv_box>a{
+  width: 20px;
+  height: 50px;
+  display: inline-block; /* block만 쓰면 사이즈 조절이 안되고, inline만 쓰면 블럭때문에 아래로 쌓이기 때문에 '인라인-블럭' 이러케 써주어야 함! 단 사이 공백은 원하는 대로 조절이 안됨*/
+  font-size: 0.7rem;
+}
+
+.conv_box2{
+  width: 500px;
+  height: 50px;
+  background-color: orange;
+  display: inline;
+}
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <h1><a href="../index.html">웹기초</a> </h1>
+    <h2>inline과 block의 개념</h2>
+    <div class="box_01">div는 크기를 가질 수 있는가</div>
+    <p class="box_02">p요소는 박스를 가질 수 있는가</p>
+  
+  <ul>
+    <li class="list_1">리스트리스트</li>
+    <li class="list_2">리스트리스트</li>
+    <li class="list_3">리스트리스트</li>
+    <li class="list_4">리스트리스트</li>
+  </ul>
+
+  <hr />
+  <span class="mini_gr">의미없는 작은 단위의 그룹</span>
+  <a href="#">클릭하면이동</a>
+  <hr />
+
+  <button>버튼은 어떠한 형태를 가지는가</button>
+</div>
+
+<span>인라인 형식의 요소
+  <div>결과??</div>
+</span>
+
+<p>
+  <div>p안에 박스 담기</div>
+</p>
+
+<div class="conv_box">
+  <a href="#">블럭으로 변환</a>
+  <a href="#">블럭으로 변환</a>
+  <a href="#">블럭으로 변환</a>
+
+<div class="conv_box2"> 인라인 으로 변환
+</div>
+
+</div>
+
+
+</body>
+</html>
