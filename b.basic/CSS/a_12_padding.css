@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* a_12_padding.css */
+
+body{
+  background-color: white;
+}
+
+#wrap{
+  width: 900px;
+  height: 2000px;
+  background-color: lightgray;
+  margin: 0 auto;
+}
+
+.part{
+  width: 95%;
+  height: 500px;
+  background-color: white;
+  margin: 0 auto;
+}
+.part>div{
+  width: 120px;
+  height: 120px;
+  background-image:linear-gradient(45deg,lavender, plum);
+  float: left;
+}
+
+.part > .padding_01{
+  width: 200px;
+  height: 200px;
+}
+
+.padding_02{
+  padding: 50px;
+}
+
+.part .padding_03{
+  width: 200px;
+  height: 200px;
+}
+.padding_inner{
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  margin: auto;
+  margin-top: 50px;
+}
+.part .padding_04{
+  width: 60px;
+  height: 60px;
+  padding:20px;
+}
+.padding_05{
+  padding: 20px;
+  box-sizing: border-box;
+  /* box-sizing은 border-box와 content-box 속성을 가진다. */
+}
+.more_p_01{
+  padding:20px;
+}
+.more_p_02{
+  padding: 20px 40px;
+}
+.more_p_03{
+  padding: 20px 50px 10px;
+}
+.more_p_04{
+  padding: 10px 20px 30px 40px;
+}
+.more_p_05{
+  padding: 30px; padding-left: 50px;;
+}
+.more_p_06{
+  padding-top: 10px; padding-right: 50px;
+}
+.more_p_07{
+  margin:auto;
+}
+.more_p_08{
+  margin-top: -50px;
+}
+.more_p_09{
+
+}
+.more_p_10{
+
+}
