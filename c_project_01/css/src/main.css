@@ -1,0 +1,206 @@
+@charset "utf-8" ;
+/* main.css */
+
+/* 사전세팅 */
+body{
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd{
+  margin: 0;
+}
+
+ul, ol, li, dl, dd, dt{
+  padding: 0;
+}
+
+ul, ol, li{
+  list-style: none;
+}
+/* 사전세팅 */
+
+/* common */
+
+/* 너비가 1280 픽셀 안넘게 하는 속성 */
+.max_1280{
+  width: 90%;
+  min-width: 940px;
+  max-width: 1280px;
+}
+
+
+/* 디자인 */
+#wrap{
+  width: 100%;
+  min-width: 960px;
+  height: auto; min-height: 500px;
+  margin: auto;
+}
+
+#headBox{
+  width: 100%;
+  height: auto;
+  background-color: #ccc;
+  padding: 20px 100px 10px;
+  box-sizing: border-box;
+}
+
+.head_area::after{
+  content:"";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both;
+}
+
+.head_area{
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  margin: auto;
+}
+
+#logo{
+  float: left;
+  width: 120px;
+  height: 70px;
+  background-color: rgb(46, 46, 46);
+  margin-left: 100px;
+}
+
+#navBox{
+  float: right;
+  width: 510px;
+  height: 70px;
+  background-color: rgb(46, 46, 46);
+  margin-right: 100px;
+}
+
+
+/* ------------- */
+#slideBox{
+  width: 100%;
+  height: 600px;
+  background-color: #aaa;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+#adCon_01{
+  width: 780px;
+  height: 400px;
+  background-color: red;
+  margin: auto;
+}
+/* ------------- */
+
+#newBox{
+  width: 100%;
+  height: 700px;
+  background-color: #eee;
+  padding-top: 62px;
+  box-sizing: border-box;
+}
+
+.area_title{
+  width: 940px;
+  height: 70px;
+  background-color: orange;
+  margin: auto;
+
+}
+
+.area_content{
+  width: 940px;
+  height: 370px;
+  background-color: rgb(255, 201, 100);
+  margin: 48px auto 50px;
+}
+
+.area_indicator{
+  width: 140px;
+  height: 30px;
+  background-color: rgb(199, 179, 142);
+  margin: auto;
+}
+/* ------------- */
+
+#subBox{
+  width: 100%;
+  height: 350px;
+  background-color: #aaa;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.area{
+  height: 300px;
+  background-color: aquamarine;
+  margin: auto;
+}
+
+/* ------------- */
+
+#bestBox{
+  width: 100%;
+  height: 700px;
+  background-color: #eee;
+  padding-top: 175px;
+  box-sizing: border-box;
+}
+#bestBox>.area{
+  height: 380px;
+}
+/* ------------- */
+
+#galleryBox{
+  width: 100%;
+  height: 750px;
+  background-color: #ccc;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+#galleryBox>.area_content{
+  height: 420px;
+}
+/* ------------- */
+#sponsorBox{
+  width: 100%;
+  height: 100px;
+  background-color: #999;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.sponsor_area{
+  width: 940px;
+  height: 80px;
+  background-color:antiquewhite;
+  margin: auto;
+}
+/* ------------- */
+
+#footerBox{
+  width: 100%;
+  height: 450px;
+  background-color: #777;
+  padding-top: 68px;
+  box-sizing: border-box;
+}
+
+.info_logo{
+  width: 120px;
+  height: 70px;
+  background-color: crimson;
+  margin-bottom: 45px;
+}
+
+.info_company{
+  width: 100
+  5;
+  height: 135px;  background-color:crimson; 
+}
+
+.combine{
+  height: auto;
+  margin: auto;
+}
