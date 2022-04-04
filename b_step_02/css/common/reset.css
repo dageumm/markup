@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  line-height: 100%;
+
+}
+img, h1, h2, h3, h4, h5, h6, hr, p, ul, li, ol{
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  font-size: 100%;
+  font:inherit ; /* inherit:부모요소의 속성을 따르겠다 */
+  vertical-align: baseline;
+}
+
+hr{
+  border-top: 1px black solid;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:focus{
+  color: green;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+strong, b, em, ins, i, u, del{
+  font-weight: normal;
+  font-size: normal;
+  text-decoration: none;
+}
