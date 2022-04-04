@@ -1,0 +1,74 @@
+/* b_02_nthOfType.css */
+
+.code_exam{
+  width: 900px;
+  height: auto;
+  min-height: 1000px;
+  margin: auto;
+  padding: 20px;
+  box-sizing:border-box;
+  background-color: lightblue;
+}
+
+.code_exam>h1{
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.code_exam .part{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.code_exam h2{
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+}
+
+.code_exam .n_child_01,
+.code_exam .n_child_02{
+  padding:20px;
+  border-radius: 10px;
+  background-color: #fee;
+}
+
+.code_exam .list{
+  list-style: decimal;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+/* -------- */
+
+.n_of_01 dt:nth-of-type(2){
+  color: #0ac
+}
+
+.n_of_01 dd:first-of-type{
+  color: purple;
+}
+
+.n_of_01 dd:empty{
+  height: 30px;
+  background-color: black;
+  color: white
+}
+
+.n_of_01 dd:not(.list){
+  height: 30px;
+  color: red;
+}
