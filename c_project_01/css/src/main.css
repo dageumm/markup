@@ -2,18 +2,11 @@
 /* main.css */
 
 /* 사전세팅 */
-body{
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd{
   margin: 0;
-}
-
-h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd{
-  margin: 0;
-}
-
-ul, ol, li, dl, dd, dt{
   padding: 0;
+  
 }
-
 ul, ol, li{
   list-style: none;
 }
@@ -36,6 +29,7 @@ ul, ol, li{
   height: auto; min-height: 500px;
   margin: auto;
 }
+/* ------------- */
 
 #headBox{
   width: 100%;
