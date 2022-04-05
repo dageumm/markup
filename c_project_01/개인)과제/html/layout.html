@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<!--layout-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/common/reset.css">
+  <link rel="stylesheet" href="../css/common/common.css">
+  <title>레이아웃 만들기</title>
+  <link rel="stylesheet" href="../css/src/layout.css">
+</head>
+<body>
+  <div id="wrap">
+<!------------------------------>
+    <header id="headBox">
+
+      <div class="head_area">
+      <h1 id="logo">osam</h1>
+
+      <nav id="navBox">
+        <h2 class="blind">page navigation</h2>
+
+        <div class="unb">
+          <h3 class="blind">사용자 설정 네비게이션</h3>
+          <ul class="clearfix last_margin">
+            <li>unb_01</li>
+            <li>unb_02</li>
+            <li>unb_03</li>
+            <li>unb_04</li>
+          </ul>
+        </div>
+
+        <div class="gnb">
+          <h3 class="blind">페이지 전체 네비게이션</h3>
+          <ul class="clearfix last_margin">
+            <li>gnb_01</li>
+            <li>gnb_02</li>
+            <li>gnb_03</li>
+            <li>gnb_04</li>
+            <li>gnb_05</li>
+            <li>gnb_06</li>
+          </ul>
+        </div>
+
+      </nav>
+
+    </div>
+    </header>
+<!------------------------------>
+    <section id="slideBox">
+      <h2 class="blind">주요광고영역</h2>
+      <div class="slide_btn">
+        <button type="button" class="next">다음</button>
+        <button type="button" class="prev">이전</button>
+      </div>
+      <div id="adCon_01">
+        adCon_01
+      </div>
+
+    </section>
+<!------------------------------>
+    <article id="newBox">
+      <h2 class="area_title">
+        area_title
+      </h2>
+
+      <!-- css 순서 상 인디케이터를 먼저 만들어야하기 때문에 순서를 바꿔줌-->
+      <div class="area_indicator">
+        <ul>
+          <li><a href="#">list_01</a></li>
+          <li><a href="#">list_02</a></li>
+          <li><a href="#">list_03</a></li>
+
+        </ul>
+      </div>
+
+      <div class="area_content">
+        <ul>
+          <li>card_01</li>
+          <li>card_02</li>
+          <li>card_03</li>
+        </ul>
+      </div>
+
+    </article>
+<!------------------------------>
+    <section id="subBox">
+      <div class="area max_1280">
+
+        <div class="sub_area">
+          <h2>보조광고영역</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+
+        <div class="sub_area_btns">
+        </div>
+      </div><!--sub_area-->
+        <div class="sub_area_img">이미지 영역</div>
+
+      </div>
+    </section>
+<!------------------------------>
+    <article id="bestBox">
+      <div class="area max_1280">
+        <div class="best_area"><h2>인기 상품 영역</h2>
+          <div class="best_btn"></div>
+          <div class="more_btn"></div>
+        </div><!--best_area-->
+        <div class="best_card">
+          <ul>
+            <li>best_card01</li>
+            <li>best_card02</li>
+            <li>best_card03</li>
+          </ul>
+        </div>
+
+
+      </div>
+    </article>
+<!------------------------------>
+    <article id="galleryBox">
+      <h2 class="area_title ">
+        area_title
+      </h2>
+
+      <div class="area_content">
+        <div class="gallery_img">이미지 영역
+        </div>
+
+        <div class="gallery_last">
+          <ul>
+            <li>last_list</li>
+            <li>last_list</li>
+            <li>last_list</li>
+            <li>last_list</li>
+          </ul>
+        </div>
+      </div>
+
+    </article>
+<!------------------------------>
+    <aside id="sponsorBox">
+      <div class="sponsor_area ">
+
+        <div class="sponsor_list">
+        <h2 class="blind">후원사</h2>
+        <ul class="hidden">
+          <li>spon_01</li>
+          <li>spon_02</li>
+          <li>spon_03</li>
+          <li>spon_04</li>
+          <li>spon_05</li>
+          <li>spon_06</li>
+          <li>spon_07</li>
+          <li>spon_08</li>
+          <li>spon_09</li>
+          <li>spon_010</li>
+          <li>spon_011</li>
+        </ul>
+
+      </div>
+    </div>
+    </aside>
+<!------------------------------>
+    <footer id="footerBox">
+      <div class="foot_area">
+      <h2 class="info_logo">
+        오삼커피 회사 정보
+      </h2>
+
+      <div class="info_company clearfix">
+        <div class="footer_content"></div>
+
+        <div class="footer_btns"></div>
+      </div>
+    </div>
+
+    </footer>
+<!------------------------------>
+  </div> <!-- wrap 끝-->
+</body>
+</html>
