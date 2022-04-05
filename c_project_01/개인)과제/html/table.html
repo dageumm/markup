@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--table.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>웹 개발자 채용 정보</title>
+  <style>
+    caption{
+      font-size:xx-large;
+      font-weight: bold;
+      padding: 30px;
+    }
+    table{
+      border: 1px solid black;
+      width: 800px;
+      height: auto;
+      border-spacing: 0;
+      margin: auto;
+    }
+
+    /* 각 행 너비 설정 */
+    .cell_01{
+      width: 50px;
+    }
+    .cell_02{
+      width: 130px;
+    }
+    .cell_03{
+      width: 100px;
+    }
+    .cell_05{
+      width: 360px;
+    }
+    .cell_06{
+      width: 60px;
+    }
+    /*----너비설정-----*/
+
+    /* 제목행 */
+    thead{
+      width: 800px;
+      height: 30px;
+      background-color: rgb(49, 49, 131);
+      color: white;
+    }
+
+    /* 테이블 전체 선 */
+    td,th{
+      border: 1px solid black;
+    }
+
+    /* No. 열 살짝 오른쪽 배치 */
+    .num{
+      text-align: center;
+      padding-left: 15px;
+    
+    }
+
+    /* 각 행 25px 높이 설정 */
+    tr{
+      height: 25px;
+    }
+
+    /* 짝수 행 색 다르게 */
+    .even{
+      background-color: rgb(189, 189, 255);
+    }
+
+    /* 이미지 가운데 정렬 */
+    img{
+      height: 50px;
+      display: block;
+      margin: auto;
+    }
+
+    /* 3행마다 굵은 줄 */
+    .line{
+      border-bottom: solid black 3px;
+      box-sizing: border-box;
+    }
+
+    /* '지원' 부분 가운데 정렬 */
+    .apply{
+      text-align: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>웹개발자 채용 정보</caption>
+    <colgroup>
+      <col class="cell_01">
+      <col class="cell_02">
+      <col class="cell_03" span="2">
+      <!--<col class="cell_04">-->
+      <col class="cell_05">
+      <col class="cell_06">
+    
+    </colgroup>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>회사</th>
+        <th>회사명</th>
+        <th>마감일</th>
+        <th>지원분야</th>
+        <th>링크</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <div><td class="line num" rowspan="3">1</td></div>
+      <td class="line" rowspan="3"><img src="https://cdn-icons-png.flaticon.com/512/214/214337.png" alt="rockit"></td>
+      <td class="gap">rockit</td>
+      <td class="gap">8.14</td>
+      <td class="gap">웹서비스</td>
+      <td class="apply" rowspan="2"><a href="#">지원</a></td>
+    </tr>
+    <tr>
+      <td class="gap" colspan="3">프론트엔드 개발자 최소 4,000만원 / 신입, 경력</td>
+    </tr>
+    <tr>
+      <td class="line gap" colspan="4">클라우드 기술을 기반으로 IT기술 교육 서비스를 제공합니다.</td>
+    </tr>
+<!-- rockit 회사 -->
+      <tr class="even">
+        <td class="line num" rowspan="3">2</td>
+        <td class="line" rowspan="3"><img src="https://cdn-icons-png.flaticon.com/512/2698/2698500.png" alt="rich"></td>
+        <td class="gap">rich</td>
+        <td class="gap">9.01</td>
+        <td class="gap">소프트웨어개발</td>
+        <td class="apply" rowspan="2"><a href="#">지원</a></td>
+      </tr>
+      <tr class="even">
+        <td class="gap" colspan="3">웹 개발자 최소 2,500만원 / 신입</td>
+      </tr>
+      <tr class="even">
+        <td class="line gap" colspan="4">클라우드 기술을 기반으로 IT기술 교육 서비스를 제공합니다.</td>
+        </tr>
+
+ <!-- rich 회사 -->
+     <tr>
+      <td class="line num" rowspan="3">3</td>
+      <td class="line" rowspan="3"><img src="https://cdn-icons-png.flaticon.com/512/4417/4417372.png" alt="rose"> </td>
+      <td class="gap">rose</td>
+      <td class="gap">7.01</td>
+      <td class="gap">웹서비스&middot;소프트웨어개발</td>
+      <td class="apply" rowspan="2"><a href="#">지원</a></td>
+    </tr>
+    <tr>
+      <td class="gap" colspan="3">프론트엔드 개발자 최소 4,000만원 / 신입, 경력</td>
+    </tr>
+    <tr>
+      <td class="line gap" colspan="4">화훼 농작물 관리시스템 구축 서비스를 제공합니다.</td>
+ <!-- rose 회사 -->
+      <tr class="even">
+      <td class="line num" rowspan="3">4</td>
+      <td class="line" rowspan="3"><img src="https://cdn-icons-png.flaticon.com/512/1888/1888857.png" alt="jellgom"></td>
+      <td class="gap">젤곰</td>
+      <td class="gap">7.24</td>
+      <td>개발</td>
+      <td class="apply" rowspan="2"><a href="#">지원</a></td>
+    </tr>
+    <tr class="even">
+      <td class="gap" colspan="3">프론트엔드 개발자 최소 3,000만원 / 신입, 경력</td>
+    </tr>
+    <tr class="even">
+      <td class="line gap" colspan="4">캐릭터 사업분야로 게임 및 웹개발 산업 분야</td>
+
+ <!-- 젤곰 회사 -->
+ 
+    </tr>
+  </tbody>
+  </table>
+</body>
+</html>
